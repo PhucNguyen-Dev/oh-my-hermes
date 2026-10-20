@@ -1,0 +1,161 @@
+{
+  "schema_version": "trigger_language_pack/v1",
+  "language": "vi",
+  "skills": {
+    "accessibility-audit": [
+      "kiểm tra khả năng tiếp cận",
+      "hãy xem trang web này có chuẩn WCAG không",
+      "kiểm tra tuân thủ WCAG",
+      "kiểm tra điều hướng bằng bàn phím",
+      "kiểm tra thứ tự tiêu điểm",
+      "kiểm thử với trình đọc màn hình"
+    ],
+    "adversarial-consensus": [
+      "phản biện đề xuất này từ nhiều góc độ",
+      "tìm điểm yếu của đề xuất kỹ thuật này",
+      "kiểm thử kế hoạch này theo cách red team",
+      "yêu cầu đánh giá độc lập để kiểm chứng đề xuất",
+      "giúp bác bỏ các giả định trong thiết kế này",
+      "rà soát đề xuất theo hướng phản biện"
+    ],
+    "automation-blueprint": [
+      "thiết kế tự động hóa theo lịch trình",
+      "tạo luồng công việc tự động hàng ngày",
+      "thiết kế gửi tóm tắt tự động"
+    ],
+    "backend": [
+      "thiết kế API backend",
+      "xây dựng hợp đồng endpoint",
+      "thiết kế dịch vụ phía máy chủ",
+      "giúp thiết kế luồng xác thực backend",
+      "xác định định dạng phản hồi API",
+      "xử lý lỗi ở backend"
+    ],
+    "build-failure-triage": [
+      "build thất bại",
+      "giúp sửa lỗi biên dịch",
+      "kiểm tra nguyên nhân pipeline CI thất bại",
+      "typecheck thất bại",
+      "hãy sửa lỗi lint thất bại",
+      "kiểm thử thất bại trên CI"
+    ],
+    "code-review": [
+      "rà soát mã nguồn",
+      "review mã nguồn này",
+      "giúp rà soát PR này",
+      "hãy kiểm tra diff này tìm bug",
+      "kiểm tra thay đổi mã nguồn trước khi hòa nhập",
+      "phân tích pull request này",
+      "tìm bug trong thay đổi này",
+      "review PR này giúp mình"
+    ],
+    "deep-interview": [
+      "làm rõ yêu cầu của tính năng này",
+      "giúp khai thác yêu cầu trước khi xây dựng giải pháp",
+      "phân tích các yêu cầu còn mơ hồ",
+      "làm rõ yêu cầu này thông qua hỏi đáp"
+    ],
+    "design-orchestration": [
+      "xử lý thiết kế sản phẩm này toàn diện",
+      "phối hợp toàn bộ quy trình thiết kế",
+      "giúp phụ trách thiết kế sản phẩm từ đầu",
+      "chuẩn bị chỉ đạo thiết kế cho đội thực thi",
+      "lập bàn giao thiết kế sản phẩm"
+    ],
+    "design-quality-gate": [
+      "đảm bảo thiết kế đạt tiêu chuẩn chất lượng cao",
+      "nâng cao chất lượng thiết kế trước khi xuất bản",
+      "hãy tinh chỉnh thiết kế cho sẵn sàng xuất bản",
+      "kiểm tra tiêu chuẩn chất lượng của thiết kế này",
+      "chỉnh sửa nội dung và bố cục cho đạt mức xuất bản"
+    ],
+    "frontend": [
+      "xây dựng giao diện frontend",
+      "giúp tạo landing page",
+      "cải thiện giao diện frontend",
+      "tạo trang có bố cục responsive",
+      "thực hiện thiết kế UI",
+      "thiết kế giao diện terminal",
+      "thêm hiệu ứng scroll",
+      "thiết kế lại giao diện dashboard"
+    ],
+    "llm-app-dev": [
+      "xây dựng ứng dụng dựa trên LLM",
+      "giúp tạo tính năng với LLM",
+      "tạo pipeline RAG",
+      "thiết kế chatbot có retrieval",
+      "thiết lập đánh giá cho tính năng LLM",
+      "tạo kết xuất có cấu trúc từ LLM"
+    ],
+    "long-document-reading": [
+      "đọc toàn bộ tài liệu này",
+      "tóm tắt tài liệu PDF dài này",
+      "hãy đọc báo cáo này đến hết",
+      "tóm tắt tài liệu này không bỏ sót phần nào",
+      "đọc tài liệu hướng dẫn này từ đầu đến cuối",
+      "giúp tóm tắt toàn bộ nội dung PDF này"
+    ],
+    "maestro": [
+      "chuẩn bị bàn giao coding",
+      "tạo prompt ủy quyền cho agent coding",
+      "lập hướng dẫn thực hiện cho trình thực thi coding",
+      "chuẩn bị bàn giao cho agent coding đã chọn",
+      "giúp viết brief cho trình thực thi coding",
+      "đóng gói công việc coding cho agent đã chọn"
+    ],
+    "native-debugging": [
+      "giúp debug lỗi segfault này",
+      "phân tích core dump",
+      "truy nguyên nhân use after free",
+      "debug crash trên binary native"
+    ],
+    "plan": [
+      "lập kế hoạch thực hiện",
+      "chia tính năng này thành các bước thực hiện",
+      "giúp lên kế hoạch thêm tính năng",
+      "hãy lập kế hoạch sửa lỗi",
+      "xác định các giai đoạn thực hiện trước khi code"
+    ],
+    "research": [
+      "tiến hành nghiên cứu chuyên sâu",
+      "nghiên cứu các triển khai mã nguồn mở tham khảo",
+      "lập tổng quan tài liệu",
+      "so sánh các triển khai OSS trước khi xây dựng đặc tả",
+      "giúp nghiên cứu kỹ thuật toàn diện",
+      "kiểm chứng các tuyên bố kỹ thuật từ nhiều nguồn"
+    ],
+    "rust": [
+      "giúp xử lý lỗi borrow checker",
+      "sửa vấn đề ownership trong Rust",
+      "giải thích lỗi lifetime trong Rust",
+      "hãy sửa lỗi cargo clippy",
+      "rà soát khối unsafe Rust này"
+    ],
+    "ultraqa": [
+      "kiểm thử các tình huống cực đoan",
+      "tiến hành QA phản biện",
+      "kiểm thử các tình huống thất bại trước khi phát hành",
+      "giúp tìm lỗ hổng qua kiểm thử end to end",
+      "kiểm thử ứng dụng với điều kiện người dùng thực tế",
+      "chạy các chu kỳ kiểm thử và sửa lỗi lặp lại"
+    ],
+    "ultrawork": [
+      "thực hiện song song"
+    ],
+    "verification-gate": [
+      "xác minh trước khi hòa nhập",
+      "chứng minh thay đổi này đã hoàn thành",
+      "kiểm tra bằng chứng build lint và kiểm thử",
+      "đảm bảo tất cả kiểm tra đạt trước khi hòa nhập",
+      "hãy xác thực kết quả thực hiện này"
+    ],
+    "visual-qa": [
+      "kiểm tra giao diện từ ảnh chụp màn hình",
+      "hãy kiểm tra bố cục bị lỗi",
+      "kiểm tra trực quan trang đã render",
+      "kiểm tra các thành phần bị cắt trên màn hình",
+      "rà soát kết quả render của giao diện",
+      "giúp kiểm tra bố cục từ ảnh chụp"
+    ]
+  }
+}

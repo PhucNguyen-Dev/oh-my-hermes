@@ -348,6 +348,11 @@ class ShippedTriggerPackTests(unittest.TestCase):
             ("id", "review kode ini", "code-review"),
             ("id", "audit aksesibilitas", "accessibility-audit"),
             ("id", "build gagal", "build-failure-triage"),
+            ("vi", "lập kế hoạch thực hiện", "plan"),
+            ("vi", "rà soát mã nguồn", "code-review"),
+            ("vi", "kiểm tra khả năng tiếp cận", "accessibility-audit"),
+            ("vi", "build thất bại", "build-failure-triage"),
+            ("vi", "tiến hành nghiên cứu chuyên sâu", "research"),
         )
 
         for language, message, expected in probes:
